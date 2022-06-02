@@ -2,39 +2,49 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
-  name: "Gurobah",
-  gender: "Male",
-  age: 25,
-  email: "Gurobah@gmail.com",
-  favoriteColor: ["Blue", "White"],
-  isHavePet: "No",
+  name: "Monica",
+  gender: "Female",
+  age: 17,
+  email: "monica@dingdong.com",
+  favoriteColor: ["Yellow", "Pink", "White", "Purple"],
+  isHavePet: "Yes",
   education: [
-    { name: "SD Pagi Sore", city: "Lampung", graduate: "2009" },
-    { name: "SMP Pagi Sore", city: "Lampung", graduate: "2012" },
-    { name: "SMA Pagi Sore", city: "Lampung", graduate: "2015" },
-    { name: "Universitas Jakarta", city: "Jakarta", graduate: "2019" },
+    { name: "SD 01", city: "Jakarta", graduate: "2016" },
+    { name: "SMP 02", city: "Jakarta", graduate: "2019" },
+    { name: "SMA 03", city: "Tangerang" },
   ],
-  favoriteRestaurant: ["Martabak", "Sate"],
+  favoriteRestaurant: [
+    "Bento",
+    "Sushi",
+    "Pancake",
+    "Eggy",
+    "Tempura",
+    "Padang",
+    "Tteok",
+  ],
 };
 
 const secondUser = {
-  name: "Salsa",
-  gender: "Female",
-  age: 24,
-  email: "Salsa@gmail.com",
-  favoriteColor: ["Red", "Yellow", "Green"],
-  isHavePet: "Yes",
+  name: "Wendy",
+  gender: "Male",
+  age: 23,
+  email: "wendy@dingdong.com",
+  favoriteColor: ["Blue", "Black", "Grey"],
+  isHavePet: "No",
   education: [
-    { name: "SD Pagi", city: "Bogor", graduate: "2010" },
-    { name: "SMP Siang", city: "Bogor", graduate: "2013" },
-    { name: "SMA Sore", city: "Bogor", graduate: "2016" },
-    { name: "Universitas Bogor", city: "Bogor", graduate: "2020" },
+    { name: "SD 02", city: "Jakarta", graduate: "2010" },
+    { name: "SMP 03", city: "Bogor", graduate: "2013" },
+    { name: "SMA 01", city: "Surabaya", graduate: "2016" },
+    { name: "Universitas Maju", city: "Tangerang" },
   ],
-  favoriteRestaurant: ["Soto", "Nasi Goreng", "Bakso"],
+  favoriteRestaurant: ["Katsu", "Geprek"],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser, secondUser];
+const users = [];
+
+users.push(firstUser);
+users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
