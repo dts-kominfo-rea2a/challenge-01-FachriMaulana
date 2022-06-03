@@ -15,32 +15,31 @@ const firstFavResto = [
 ];
 const secondFavResto = ["Katsu", "Geprek"];
 
-const firstUser = {
+let firstUser = {
   name: "Monica",
   gender: "Female",
-  age: 17,
+  age: "17",
   email: "monica@dingdong.com",
   favoriteColor: [...new Set(firstFavColor)],
   isHavePet: "Yes",
   education: [
-    { name: "SD 01", city: "Jakarta", graduate: "2016" },
-    { name: "SMP 02", city: "Jakarta", graduate: "2019" },
+    { name: "SD 01", city: "Jakarta", graduate: 2016 },
+    { name: "SMP 02", city: "Jakarta", graduate: 2019 },
     { name: "SMA 03", city: "Tangerang" },
   ],
   favoriteRestaurant: [...new Set(firstFavResto)],
 };
-
-const secondUser = {
+let secondUser = {
   name: "Wendy",
   gender: "Male",
-  age: 23,
+  age: "23",
   email: "wendy@dingdong.com",
   favoriteColor: [...new Set(secondFavColor)],
   isHavePet: "No",
   education: [
-    { name: "SD 02", city: "Jakarta", graduate: "2010" },
-    { name: "SMP 03", city: "Bogor", graduate: "2013" },
-    { name: "SMA 01", city: "Surabaya", graduate: "2016" },
+    { name: "SD 02", city: "Jakarta", graduate: 2010 },
+    { name: "SMP 03", city: "Bogor", graduate: 2013 },
+    { name: "SMA 01", city: "Surabaya" },
     { name: "Universitas Maju", city: "Tangerang" },
   ],
   favoriteRestaurant: [...new Set(secondFavResto)],
