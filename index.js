@@ -10,10 +10,24 @@ const firstFavResto = [
   "Pancake",
   "Eggy",
   "Tempura",
+  "Bento",
+  "Eggy",
   "Padang",
   "Tteok",
+  "Sushi",
+  "Sushi",
 ];
-const secondFavResto = ["Katsu", "Geprek"];
+const secondFavResto = [
+  "Tempura",
+  "Bento",
+  "Sushi",
+  "Pancake",
+  "Padang",
+  "Katsu",
+  "Geprek",
+  "Pancake",
+  "Eggy",
+];
 
 let firstUser = {
   name: "Monica",
